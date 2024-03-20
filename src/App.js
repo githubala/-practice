@@ -7,7 +7,7 @@ import Notfound from './components/Notfound';
 export default function App() {
   let id = '123';
   return (
-    <div>
+    <div className='AppClr'>
       <BrowserRouter>
         <Link to="/">Home</Link>
         <Link to={`/User/${id}`}>User</Link>
