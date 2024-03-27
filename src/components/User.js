@@ -5,3 +5,4 @@ const User=()=>{
         list of user details
     </>
 }
+export default User
